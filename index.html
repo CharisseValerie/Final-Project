@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFMS</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="image/Logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>SMART POULTRY FARM MONITORING SYSTEM</h1>
+    <p>To enhance the effeciency, productivity, and wolfare of poultry farming operations.</p>
+    <a href="login.html"class="hero-btn">SignUp</a>
+    
+</div>
+
+</section>
+
+<!------ features ------->
+
+<section class="features">
+    <h1>Our Key Features</h1>
+    <p>A poultry farm monitoring system is essential for efficiently managing and maintaining the health and productivity of poultry operations..</p>
+
+    <div class="row">
+        <div class="features-col">
+            <h3>Real-Time Monitoring</h3>
+            <p>Our system offers 24/7 real-time monitoring of critical parameters, 
+                including temperature, humidity, air quality, water supply, and feed levels. This data is accessible through an easy-to-use interface.</p>
+        </div>
+        <div class="features-col">
+            <h3>Data Analysis and Reporting</h3>
+            <p>We collect and analyze data from your farm, providing you with valuable insights 
+                and trends that can help you make informed decisions to enhance production and welfare.</p>
+        </div>
+        <div class="features-col">
+            <h3>Sustainability Focus</h3>
+            <p>We promote sustainable poultry farming by helping you minimize resource usage, 
+                reduce waste, and implement e  co-friendly practices.</p>
+        </div>
+    </div>
+</section>
+
+<!----- Farm Pictures ------>
+
+<section class="picture">
+    <h1>Poultry Farm Pictures </h1>
+    <p>Precision and Care, Monitored with Ease: Poultry Farming Elevated</p>
+     
+    <div class="row">
+        <div class="picture-col">
+            <img src="image/picture 1.jpg">
+            <div class="layer">
+            </div>
+        </div>
+        <div class="picture-col">
+            <img src="image/picture 2.jpg">
+            <div class="layer">
+            </div>
+        </div>
+        <div class="picture-col">
+            <img src="image/picture 1.jpg">
+            <div class="layer">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!------JavaScript for Toogle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
